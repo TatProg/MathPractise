@@ -131,7 +131,7 @@ public class Test {
                 break;
             case 8:
                 System.out.println("-----Создание многоугольника------");
-                System.out.print("Введите количество вершин: 1");
+                System.out.print("Введите количество вершин: ");
                 int c = scanner.nextInt();
                 coordinates = readCoordinates(c);
                 shape = new NGon(coordinates);

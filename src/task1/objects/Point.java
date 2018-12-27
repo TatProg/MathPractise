@@ -183,7 +183,7 @@ public class Point {
     }
 
     /**
-     * Симметрия относительно оси под номером i
+     * Симметрия относительно оси под номером i 1-х 2-у 3-z 4-...
      */
     public static Point symaxis(Point a, int i) {
         if (i < 0 || i > a.coordinates.length) {

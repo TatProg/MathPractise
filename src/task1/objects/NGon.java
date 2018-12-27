@@ -95,8 +95,9 @@ public class NGon implements IShape {
         return newNGon;
     }
 
+    //определение пересечения с помощью деления на отрезки и сравнивания их
     @Override
-    public boolean cross(IShape shape) { //определение пересечения с помощью деления на отрезки и сравнивания их
+    public boolean cross(IShape shape) {
         if (!(shape instanceof NGon)) {
             return false;
         } else {
